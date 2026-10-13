@@ -27,6 +27,7 @@ h2{
     margin: 4px 0 12px;
     font-family: "Libre Caslon Condensed";
     font-weight: 700;
+    margin-top: 0;
 }
 
 main {
@@ -55,9 +56,13 @@ header, footer {
     background-color: #294653;
     color: white;
 }
-footer a {
+.contact-info a {
     color: #D6EEF2;
-    
+    padding: 10px;
+    display: inline-block;
+}
+footer{
+    text-align: center;
 }
 .header img {
     height: 200px;
