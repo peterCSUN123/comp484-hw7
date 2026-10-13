@@ -7,6 +7,12 @@ education - #FFFFFF
 
 /* Global styles 
 ------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
 body {
     background: white;
     min-height: 100vh;
@@ -41,6 +47,7 @@ p {
     max-width: 950px;
     margin: 0 auto;
     padding: 50px;
+    overflow: hidden;
 }
 
 .education, .technical-skills, .work-experience{
@@ -64,14 +71,26 @@ header, footer {
 footer{
     text-align: center;
 }
-.header img {
-    height: 200px;
-    width: 200px;
+.profile-img{
     border-radius: 50%;
-    object-fit: cover;
+    
+    /*width: 300px;
+    float: left;
+    margin-right: 30px; */
 }
 .header{
     text-align: center;
+}
+.column-narrow{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide{
+    width: 70%;
+    float: left;
+    min-height: 225px;
 }
 
 
