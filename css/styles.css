@@ -37,8 +37,9 @@ p {
 }
 
 .content-wrap{
-    width: 950px;
+    max-width: 950px;
     margin: 0 auto;
+    padding: 50px;
 }
 
 .education, .technical-skills, .work-experience{
