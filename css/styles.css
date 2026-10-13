@@ -35,6 +35,19 @@ main {
 p {
     font-size: 20px;
 }
+
+.content-wrap{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.education, .technical-skills, .work-experience{
+    background-color: #eef4f5;;
+}
+.certification, .technical-projects {
+    background-color: #FFFFFF;;
+}
+
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
@@ -52,22 +65,24 @@ footer a {
     object-fit: cover;
 }
 .header{
-    
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    padding: 30px;
+    text-align: center;
 }
+
 
 /* Work Experience
 ------------------------------------*/
-.work-experience {
-    background-color: #eef4f5;
-}
+
 
 
 /* Education
 ------------------------------------*/
-.education {
-    background-color: #FFFFFF;
-}
+
+
+/* Certification */
+
+
+/* Technical Skills */
+
+
+/* Technical Projects */
+
